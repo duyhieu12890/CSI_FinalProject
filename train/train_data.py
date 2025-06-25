@@ -62,6 +62,9 @@ if os.getenv('IS_CUDA') == 'True':
             # print(e)
             print("Error setting memory growth:", e)
             pass
+else:
+    print("CUDA is not enabled. Running on CPU only.")
+    os.environ['CUDA_VISIBLE_DEVICES'] = '-1'  # Disable GPU
 
 print(os.getcwd())
 
