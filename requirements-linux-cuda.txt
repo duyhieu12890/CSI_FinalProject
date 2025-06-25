@@ -1,0 +1,13 @@
+tensorflow[and-cuda]==2.19.0
+pandas
+scikit-learn
+streamlit
+matplotlib
+seaborn
+opencv-python
+Pillow
+glob2
+python-dotenv
+fastapi
+uvicorn
+requests
