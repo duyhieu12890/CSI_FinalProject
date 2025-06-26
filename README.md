@@ -66,9 +66,11 @@ python -m venv .
     1. Ensure you have a compatible NVIDIA GPU, [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit), and [cuDNN](https://developer.nvidia.com/cudnn) installed.
     2. Install dependencies:
          ```bash
-         pip install -r requirements-cpu.txt
+         pip install -r requirements-windows-cuda.txt
          pip install tensorflow==2.12.*
          ```
+- **With ROCm (AMD):**
+    I don't know ¯\_(ツ)_/¯
 
 #### On Linux
 
@@ -82,5 +84,8 @@ python -m venv .
          ```bash
          pip install -r requirements-linux-cuda.txt
          ```
+
+- **With ROCm (AMD):**
+    I don't know ¯\_(ツ)_/¯
 
 > **Note:** Always activate your virtual environment before installing or running the project.

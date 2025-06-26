@@ -80,7 +80,7 @@ os.getenv('DATASET_PATH')
 image_size = (256, 256)
 batch_size = 32
 num_classes = len([i for i in Path(os.getenv('DATASET_PATH')).glob("*") if i.is_dir()])
-val_train = 0.8
+val_train = 0.85
 
 
 AUTOTUNE = tf.data.AUTOTUNE
@@ -195,7 +195,7 @@ print(model.summary())
 
 print(len(train_gen), len(val_gen))
 
-epochs = 10
+epochs = 20
 
 model.fit(
     train_ds,
@@ -212,6 +212,11 @@ model.fit(
             save_weights_only=False,
             save_best_only=False, 
             monitor='val_loss'
+        ),
+        callbacks.EarlyStopping(
+            monitor='val_loss', 
+            patience=5, 
+            restore_best_weights=True
         ),
         callbacks.ReduceLROnPlateau(
             monitor='val_loss', 
