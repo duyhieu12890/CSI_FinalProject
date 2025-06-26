@@ -53,7 +53,7 @@ def copy_and_rename_images(src_root, categories, label2id, out_root, metadata):
             })
 
         if not image_found:
-            print(f"[!] ⚠️ Không tìm thấy ảnh trong {src_folder}")
+            print(f"[!] Không tìm thấy ảnh trong {src_folder}")
 
 
 # Đường dẫn gốc

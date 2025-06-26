@@ -10,6 +10,7 @@ bin
 include
 lib
 lib64
+regression-sample
 share
 etc
 *.so

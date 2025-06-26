@@ -56,7 +56,9 @@ python -m venv .
 
 ### 3. Install Dependencies
 
-#### On Windows
+#### 3.1 Install Tensorflow
+
+##### On Windows
 
 - **CPU only:**
     ```bash
@@ -72,7 +74,7 @@ python -m venv .
 - **With ROCm (AMD):**
     I don't know ¯\_(ツ)_/¯
 
-#### On Linux
+##### On Linux
 
 - **CPU only:**
     ```bash
@@ -89,3 +91,5 @@ python -m venv .
     I don't know ¯\_(ツ)_/¯
 
 > **Note:** Always activate your virtual environment before installing or running the project.
+
+#### 3.2 Install Components

@@ -1,21 +1,17 @@
-# app.py
-from fastapi import FastAPI, File, UploadFile
-from fastapi.responses import JSONResponse
-import uvicorn
 import tensorflow as tf
-from PIL import Image
-import numpy as np
-import io
+from tensorflow import keras
 import os
+import numpy as np
 import dotenv
+
 
 env_path = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), '.env'))
 print(env_path)
+dotenv.load_dotenv()
 
-dotenv.load_dotenv(dotenv_path=env_path)
 
 print("TensorFlow version:", tf.__version__)
-print("Keras version:", tf.keras.__version__)
+print("Keras version:", keras.__version__)
 print("Num CPUs Available: ", len(tf.config.list_physical_devices('CPU')))
 print("Num CPUs Core(s): ", os.cpu_count())
 
@@ -39,7 +35,7 @@ if os.getenv('IS_CUDA') == 'True':
                 tf.config.experimental.set_memory_growth(gpu, True)
                 tf.config.experimental.set_virtual_device_configuration(
                     gpu,
-                    [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=3840)]
+                    [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=mem_limit)]
                 )
         except RuntimeError as e:
             # print(e)
@@ -51,26 +47,10 @@ else:
 
 print(os.getcwd())
 
-app = FastAPI()
-model = tf.keras.models.load_model("/mnt/e/food_epoch_03_valacc0.42_valloss2.26.keras")
 
-def preprocess_image(file):
-    img = Image.open(io.BytesIO(file)).convert("RGB")
-    img = img.resize((256, 256))  # hoặc đúng theo kích thước model
-    img = np.array(img) / 255.0
-    img = np.expand_dims(img, axis=0)
-    return img
-
-@app.post("/predict")
-async def predict(file: UploadFile = File(...)):
-    contents = await file.read()
-    img = preprocess_image(contents)
-    preds = model.predict(img)
-    return JSONResponse(content={"prediction": preds.tolist()})
-
-@app.get("/")
-async def root():
-    return {"message": "Welcome to the Food Image Classification API. Use POST /predict to classify images."}
-
-if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+# print("Environment Variables:")
+for key in dotenv.find_dotenv():
+    value = os.getenv(key)
+    if value is not None:
+        print(f"{key}: {value}")
+os.getenv('DATASET_PATH')

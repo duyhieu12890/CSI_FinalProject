@@ -1,3 +1,21 @@
+import sys
+
+
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python train.py <start|train>")
+        sys.exit(1)
+
+    arg = sys.argv[1]
+    if arg not in ["start", "train"]:
+        print("Invalid argument. Use 'start' or 'train'.")
+        sys.exit(1)
+
+    run_script(arg)
+
+print("Starting TensorFlow and Library Setup...")
+
 import numpy as np
 import pandas as pd
 import tensorflow as tf
@@ -25,7 +43,6 @@ from pprint import pprint
 from pathlib import Path
 import collections
 
-
 env_path = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), '.env'))
 print(env_path)
 
@@ -49,7 +66,10 @@ print("Num GPUs Available: ", len(gpus))
 
 if os.getenv('IS_CUDA') == 'True':
 
-    mem_limit = int(os.getenv('MEMORY_LIMIT', "4096"))  # Default to 10GB if not set
+    mem_limit = int(os.getenv('MEMORY_LIMIT'))  # Default to 10GB if not set
+    if mem_limit <= 0:
+        mem_limit = 1024
+    print("VMemory Limit:", mem_limit, "MB")
     if gpus:
         try:
             for gpu in gpus:
@@ -207,7 +227,7 @@ model.fit(
         callbacks.ModelCheckpoint(
             filepath=os.path.join(
                 os.getenv("MODEL_PATH"),
-                'food_epoch_{epoch:02d}_valacc{val_accuracy:.2f}_valloss{val_loss:.2f}.keras'
+                'food_epoch_{epoch:02d}.keras'
             ), 
             save_weights_only=False,
             save_best_only=False, 
@@ -224,6 +244,8 @@ model.fit(
             patience=3, 
             min_lr=1e-6, 
             verbose=1
-        )
+        ),
+        print("Result: Epoch {epoch:02d} - Loss: {loss:.4f} - Accuracy: {accuracy:.4f} - Val Loss: {val_loss:.4f} - Val Accuracy: {val_accuracy:.4f}")
     ]
 )
+

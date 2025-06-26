@@ -1,0 +1,14 @@
+pandas
+scikit-learn
+streamlit
+matplotlib
+seaborn
+plotly
+nbformat
+opencv-python
+Pillow
+glob2
+python-dotenv
+fastapi
+uvicorn
+requests
