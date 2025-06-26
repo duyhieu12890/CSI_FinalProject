@@ -1,0 +1,3 @@
+[submodule "csi-streamlit-cloud"]
+	path = csi-streamlit-cloud
+	url = https://github.com/duyhieu12890/csi-streamlit-cloud.git
