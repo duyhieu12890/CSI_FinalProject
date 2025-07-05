@@ -1,7 +1,6 @@
 import sys
 
 
-
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: python train.py <start|train>")
@@ -12,7 +11,6 @@ if __name__ == "__main__":
         print("Invalid argument. Use 'start' or 'train'.")
         sys.exit(1)
 
-    run_script(arg)
 
 print("Starting TensorFlow and Library Setup...")
 
@@ -74,10 +72,10 @@ if os.getenv('IS_CUDA') == 'True':
         try:
             for gpu in gpus:
                 tf.config.experimental.set_memory_growth(gpu, True)
-                tf.config.experimental.set_virtual_device_configuration(
-                    gpu,
-                    [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=mem_limit)]
-                )
+                # tf.config.experimental.set_virtual_device_configuration(
+                    # gpu,
+                    # [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=mem_limit)]
+                # )
         except RuntimeError as e:
             # print(e)
             print("Error setting memory growth:", e)
@@ -99,6 +97,7 @@ os.getenv('DATASET_PATH')
 
 image_size = (256, 256)
 batch_size = 32
+kernel_size = (3,3)
 num_classes = len([i for i in Path(os.getenv('DATASET_PATH')).glob("*") if i.is_dir()])
 val_train = 0.85
 
@@ -178,12 +177,12 @@ counter_val = collections.Counter(y_val_labels)
 
 
 print("Train sample distribution:")
-for class_index, count in counter_train.items():
-    print(f"Class {class_names[class_index]} ({class_index}): {count} images")
+#for class_index, count in counter_train.items():
+#    print(f"Class {class_names[class_index]} ({class_index}): {count} images")
 
 print("Validation sample distribution:")
-for class_index, count in counter_val.items():
-    print(f"Class {class_names[class_index]} ({class_index}): {count} images")
+#for class_index, count in counter_val.items():
+#    print(f"Class {class_names[class_index]} ({class_index}): {count} images")
 
 
 
@@ -193,15 +192,21 @@ base_model = MobileNetV2(
     weights='imagenet'
 )
 base_model.trainable = False  # Freeze the base model
-
+#base_model.trainable = True
 model = Sequential([
-    # keras.Input(shape=(image_size[0], image_size[1], 3)),
     base_model,
-    keras.layers.GlobalAveragePooling2D(),
+    keras.layers.GlobalAveragePooling2D(),  # Quan trọng
 
-    keras.layers.Dense(512, activation='relu'),
+    keras.layers.Flatten(),
+
     keras.layers.Dense(256, activation='relu'),
+    keras.layers.BatchNormalization(),
     keras.layers.Dropout(0.5),
+
+    keras.layers.Dense(128, activation='relu'),
+    keras.layers.BatchNormalization(),
+    keras.layers.Dropout(0.5),
+
     keras.layers.Dense(num_classes, activation='softmax')
 ])
 
@@ -215,9 +220,9 @@ print(model.summary())
 
 print(len(train_gen), len(val_gen))
 
-epochs = 20
+epochs = 30
 
-model.fit(
+first_model = model.fit(
     train_ds,
     validation_data=val_ds,
     epochs=epochs,
@@ -228,7 +233,7 @@ model.fit(
             filepath=os.path.join(
                 os.getenv("MODEL_PATH"),
                 'food_epoch_{epoch:02d}.keras'
-            ), 
+            ),
             save_weights_only=False,
             save_best_only=False, 
             monitor='val_loss'
@@ -244,8 +249,6 @@ model.fit(
             patience=3, 
             min_lr=1e-6, 
             verbose=1
-        ),
-        print("Result: Epoch {epoch:02d} - Loss: {loss:.4f} - Accuracy: {accuracy:.4f} - Val Loss: {val_loss:.4f} - Val Accuracy: {val_accuracy:.4f}")
+        )
     ]
 )
-
