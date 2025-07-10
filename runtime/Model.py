@@ -20,8 +20,8 @@ print("Num CPUs Core(s): ", os.cpu_count())
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # 0 = all logs, 1 = INFO, 2 = WARNING, 3 = ERROR
 
-tf.config.threading.set_intra_op_parallelism_threads(4)
-tf.config.threading.set_inter_op_parallelism_threads(4)
+tf.config.threading.set_intra_op_parallelism_threads(os.cpu_count() // 2)
+tf.config.threading.set_inter_op_parallelism_threads(os.cpu_count() // 2)
 print("Num Inter Op Threads: ", tf.config.threading.get_inter_op_parallelism_threads())
 print("Num Intra Op Threads: ", tf.config.threading.get_intra_op_parallelism_threads())
 

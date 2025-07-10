@@ -69,7 +69,6 @@ python -m venv .
     2. Install dependencies:
          ```bash
          pip install -r requirements-windows-cuda.txt
-         pip install tensorflow==2.12.*
          ```
 - **With ROCm (AMD):**
     I don't know ¯\_(ツ)_/¯
@@ -93,3 +92,11 @@ python -m venv .
 > **Note:** Always activate your virtual environment before installing or running the project.
 
 #### 3.2 Install Components
+
+*Next, Install Components by enter this command:*  
+    ```bash
+        pip install -r requirements.txt
+    ```
+
+*Install Cloudflared tunnel*
+    

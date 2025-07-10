@@ -16,3 +16,7 @@ etc
 *.so
 *.pyc
 *.pyo
+*.swp
+tunnel.log
+*.swp
+*.keras

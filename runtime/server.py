@@ -7,6 +7,8 @@ import io
 import os
 import dotenv
 import Model
+import module.process_string as process_string
+
 
 app = FastAPI()
 
@@ -29,7 +31,11 @@ async def predict(file: UploadFile = File(...)):
 async def root():
     return {"message": "Welcome to the Food Image Classification API. Use POST /predict to classify images."}
 
-@app.get("/status")
+@app.get("/isalive")
+async def isAlive():
+    return True
+
+@app.get("/info")
 async def status():
     return {
         "tensorflow_version": tf.__version__,
@@ -38,6 +44,11 @@ async def status():
         "system_memory": f"{os.sysconf('SC_PAGE_SIZE') * os.sysconf('SC_PHYS_PAGES') / (1024. ** 3):.2f} GB",
         "cores": os.cpu_count()
     }
+
+@app.post("/storage/upload")
+async def upload(file: UploadFile= File(...)):
+    pass
+
 
 if __name__ == "__main__":
     uvicorn.run(app, host="127.0.0.1", port=8000)
