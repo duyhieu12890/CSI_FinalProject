@@ -1,4 +1,7 @@
 import sys
+
+print("Starting TensorFlow and Library Setup...")
+
 import os
 import numpy as np
 import tensorflow as tf

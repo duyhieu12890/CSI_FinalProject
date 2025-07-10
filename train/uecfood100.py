@@ -1,7 +1,7 @@
 import sys
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python train.py <start|train>")
+        print("Usage: python uecfood100.py <start|train>")
         sys.exit(1)
 
     arg = sys.argv[1]
@@ -96,7 +96,7 @@ for key in dotenv.find_dotenv():
 os.getenv('DATASET_PATH')
 # print("Current Working Directory:", os.getcwd())
 
-data_root_dir = os.path.join(os.getenv("DATASET_PATH"), "UECFOOD256")
+data_root_dir = os.path.join(os.getenv("DATASET_PATH"), "UECFOOD100")
 AUTOTUNE = tf.data.AUTOTUNE
 print(data_root_dir)
 
@@ -297,10 +297,10 @@ def augment_data(img, label):
 # --- 4. Xây dựng tf.data.Dataset Pipeline ---
 def prepare_dataset(image_paths, image_labels, is_training=True, cache_name=False):
     dataset = tf.data.Dataset.from_tensor_slices((image_paths, image_labels))
-
+ 
     # Áp dụng hàm xử lý đường dẫn để tải và tiền xử lý ảnh
     dataset = dataset.map(process_path, num_parallel_calls=AUTOTUNE)
-
+ 
     if bool(os.getenv("USE_DATASET_CACHE")) and cache_name != False:
         print("Dataset cache enable on ", cache_name, " Directory will use:",os.path.join(os.getenv("DATASET_CACHE_PATH"), cache_name))
         os.makedirs(os.path.join(os.getenv("DATASET_CACHE_PATH"), cache_name), exist_ok=True)
@@ -348,7 +348,7 @@ base_model.trainable = False
 # Thêm các lớp mới cho bài toán phân loại của bạn
 x = base_model.output
 x = tf.keras.layers.GlobalAveragePooling2D()(x) # Lớp gộp trung bình toàn cục
-x = tf.keras.layers.Dense(1024, activation='relu')(x) # Lớp ẩn
+x = tf.keras.layers.Dense(400, activation='relu')(x) # Lớp ẩn
 predictions = tf.keras.layers.Dense(num_classes, activation='softmax')(x) # Lớp đầu ra
 
 model = tf.keras.Model(inputs=base_model.input, outputs=predictions)
@@ -363,7 +363,7 @@ model.compile(
 
 early_stop = EarlyStopping(monitor='val_accuracy', patience=10, restore_best_weights=True)
 reduce_lr = ReduceLROnPlateau(monitor='val_accuracy', factor=0.5, patience=5, min_lr=1e-6)
-checkpoint = ModelCheckpoint("best_model_epoch_{epoch}.keras", monitor='val_accuracy', save_best_only=True)
+checkpoint = ModelCheckpoint(os.path.join(os.getenv("MODEL_PATH"),"best_model_epoch_{epoch}.keras"), monitor='val_accuracy', save_best_only=True)
 
 history_head = model.fit(
     train_ds,
@@ -407,4 +407,4 @@ loss, accuracy = model.evaluate(test_ds, verbose=1)
 print(f"Test Accuracy: {accuracy*100:.2f}%")
 
 # --- 8. Lưu Mô Hình (Sau khi hài lòng với kết quả) ---
-model.save(os.path.join(os.getenv("MODEL_PATH"), "UECFOOD256.keras"))
+model.save(os.path.join(os.getenv("MODEL_PATH"), "UECFOOD100.keras"))

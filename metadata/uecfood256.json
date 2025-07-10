@@ -1,0 +1,1800 @@
+{
+  "id": "UECFOOD256",
+  "format": "utf-8",
+  "location": "Nhật Bản chủ yếu + Các nước khác",
+  "data": [
+    {
+      "index": 1,
+      "id": "rice",
+      "name": "Cơm trắng",
+      "calo": 205,
+      "description": "Cơm là một loại lương thực thiết yếu, là hạt của loài cỏ Oryza sativa. Đây là loại lương thực được tiêu thụ rộng rãi nhất cho một phần lớn dân số thế giới, đặc biệt là ở châu Á."
+    },
+    {
+      "index": 2,
+      "id": "eels on rice",
+      "name": "Cơm lươn (Unadon)",
+      "calo": 700,
+      "description": "Unadon là một món ăn cổ điển của Nhật Bản bao gồm cơm trắng được phủ lên trên những miếng phi lê lươn nướng được phết một lớp sốt ngọt làm từ đậu nành."
+    },
+    {
+      "index": 3,
+      "id": "pilaf",
+      "name": "Cơm thập cẩm (Pilaf)",
+      "calo": 350,
+      "description": "Một món cơm trong đó gạo được nấu trong nước dùng đã được nêm gia vị. Nước dùng có thể là từ gà, bò hoặc rau củ, thường đi kèm với các thành phần khác như thịt và rau củ."
+    },
+    {
+      "index": 4,
+      "id": "chicken-'n'-egg on rice",
+      "name": "Cơm gà và trứng (Oyakodon)",
+      "calo": 680,
+      "description": "Oyakodon là một món cơm tô của Nhật Bản, trong đó thịt gà, trứng, hành lá thái lát và các thành phần khác được ninh chung trong một loại sốt và sau đó được phục vụ trên một tô cơm lớn."
+    },
+    {
+      "index": 5,
+      "id": "pork cutlet on rice",
+      "name": "Cơm cốt lết heo (Katsudon)",
+      "calo": 900,
+      "description": "Katsudon là một món ăn phổ biến của Nhật Bản, một tô cơm được phủ lên trên một miếng cốt lết heo chiên xù, trứng, rau và các loại gia vị."
+    },
+    {
+      "index": 6,
+      "id": "beef curry",
+      "name": "Cà ri bò",
+      "calo": 700,
+      "description": "Một món ăn được làm từ thịt bò, hành tây, tỏi và nhiều loại gia vị, thường bao gồm nghệ, thì là, ngò và ớt, được hầm trong nước sốt cà chua hoặc nước cốt dừa."
+    },
+    {
+      "index": 7,
+      "id": "sushi",
+      "name": "Sushi",
+      "calo": 450,
+      "description": "Một món ăn của Nhật Bản gồm cơm trộn giấm, thường có thêm một chút đường và muối, ăn kèm với nhiều loại nguyên liệu khác nhau như hải sản, rau củ và đôi khi là trái cây nhiệt đới."
+    },
+    {
+      "index": 8,
+      "id": "chicken rice",
+      "name": "Cơm gà",
+      "calo": 600,
+      "description": "Một món ăn gồm gà luộc và cơm được nấu với nước dùng gà, ăn kèm với nước chấm ớt và thường có dưa chuột trang trí. Món này phổ biến ở nhiều nước Đông Nam Á."
+    },
+    {
+      "index": 9,
+      "id": "fried rice",
+      "name": "Cơm chiên",
+      "calo": 380,
+      "description": "Một món ăn từ cơm đã nấu chín được xào trong chảo, thường được trộn với các nguyên liệu khác như trứng, rau, hải sản hoặc thịt."
+    },
+    {
+      "index": 10,
+      "id": "tempura bowl",
+      "name": "Cơm Tempura (Tendon)",
+      "calo": 750,
+      "description": "Tendon là một món cơm tô của Nhật Bản bao gồm tempura (hải sản và rau củ chiên giòn) đặt trên cơm trắng và được rưới một loại sốt ngọt mặn."
+    },
+    {
+      "index": 11,
+      "id": "bibimbap",
+      "name": "Cơm trộn Hàn Quốc (Bibimbap)",
+      "calo": 550,
+      "description": "Món cơm trộn nổi tiếng của Hàn Quốc, gồm cơm, rau, thịt bò, trứng, ăn kèm sốt gochujang cay."
+    },
+    {
+      "index": 12,
+      "id": "toast",
+      "name": "Bánh mì nướng",
+      "calo": 150,
+      "description": "Bánh mì lát được nướng giòn, thường ăn kèm bơ, mứt hoặc trứng."
+    },
+    {
+      "index": 13,
+      "id": "croissant",
+      "name": "Bánh sừng bò (Croissant)",
+      "calo": 270,
+      "description": "Bánh mì bơ kiểu Pháp hình sừng bò, lớp vỏ giòn xốp, thơm bơ."
+    },
+    {
+      "index": 14,
+      "id": "roll bread",
+      "name": "Bánh mì cuộn",
+      "calo": 200,
+      "description": "Bánh mì mềm, hình cuộn, có thể ăn kèm nhân ngọt hoặc mặn."
+    },
+    {
+      "index": 15,
+      "id": "raisin bread",
+      "name": "Bánh mì nho khô",
+      "calo": 220,
+      "description": "Bánh mì mềm trộn nho khô, vị ngọt nhẹ, thường dùng làm bữa sáng."
+    },
+    {
+      "index": 16,
+      "id": "chip butty",
+      "name": "Bánh mì kẹp khoai tây chiên",
+      "calo": 400,
+      "description": "Món ăn vặt phổ biến ở Anh, bánh mì kẹp khoai tây chiên nóng giòn."
+    },
+    {
+      "index": 17,
+      "id": "hamburger",
+      "name": "Bánh mì kẹp thịt (Hamburger)",
+      "calo": 500,
+      "description": "Bánh mì kẹp thịt bò, phô mai, rau xà lách, cà chua, sốt."
+    },
+    {
+      "index": 18,
+      "id": "pizza",
+      "name": "Pizza",
+      "calo": 285,
+      "description": "Bánh pizza Ý với lớp vỏ mỏng, phủ phô mai và nhiều loại topping như xúc xích, rau củ."
+    },
+    {
+      "index": 19,
+      "id": "sandwiches",
+      "name": "Bánh sandwich",
+      "calo": 300,
+      "description": "Bánh mì kẹp với nhiều lớp nhân như thịt nguội, trứng, rau, phô mai."
+    },
+    {
+      "index": 20,
+      "id": "udon noodle",
+      "name": "Mì Udon",
+      "calo": 420,
+      "description": "Mì Udon Nhật Bản, sợi to mềm, thường dùng với nước dùng dashi và topping như tempura hoặc thịt bò."
+    },
+    {
+      "index": 21,
+      "id": "tempura udon",
+      "name": "Mì Udon Tempura",
+      "calo": 500,
+      "description": "Mì udon Nhật Bản ăn kèm tempura (hải sản và rau chiên giòn), nước dùng đậm đà."
+    },
+    {
+      "index": 22,
+      "id": "soba noodle",
+      "name": "Mì Soba",
+      "calo": 400,
+      "description": "Mì lúa mạch kiểu Nhật, có thể dùng lạnh hoặc nóng, ăn kèm nước chấm tsuyu."
+    },
+    {
+      "index": 23,
+      "id": "ramen noodle",
+      "name": "Mì Ramen",
+      "calo": 550,
+      "description": "Mì Nhật nổi tiếng với nước dùng đậm vị, thịt heo, trứng, rong biển, hành lá."
+    },
+    {
+      "index": 24,
+      "id": "beef noodle",
+      "name": "Mì bò",
+      "calo": 500,
+      "description": "Mì với thịt bò mềm, rau cải, nước dùng đậm đà, phổ biến ở nhiều nước châu Á."
+    },
+    {
+      "index": 25,
+      "id": "tensin noodle",
+      "name": "Mì Tenshin",
+      "calo": 550,
+      "description": "Mì kiểu Nhật với trứng chiên phủ lên trên (tenshinhan), thường kèm nước sốt đặc biệt."
+    },
+    {
+      "index": 26,
+      "id": "fried noodle",
+      "name": "Mì xào",
+      "calo": 600,
+      "description": "Mì xào giòn hoặc mềm, thêm rau, thịt hoặc hải sản, đậm vị nước sốt."
+    },
+    {
+      "index": 27,
+      "id": "spaghetti",
+      "name": "Mì Ý Spaghetti",
+      "calo": 450,
+      "description": "Mì Ý truyền thống, sốt cà chua hoặc kem, kèm thịt băm hoặc hải sản."
+    },
+    {
+      "index": 28,
+      "id": "Japanese-style pancake",
+      "name": "Bánh xèo Nhật (Okonomiyaki)",
+      "calo": 500,
+      "description": "Bánh xèo Nhật làm từ bột, bắp cải, thịt hoặc hải sản, phủ sốt và mayo."
+    },
+    {
+      "index": 29,
+      "id": "takoyaki",
+      "name": "Bánh bạch tuộc (Takoyaki)",
+      "calo": 350,
+      "description": "Bánh viên tròn nhân bạch tuộc, phủ sốt okonomiyaki, mayo và cá bào."
+    },
+    {
+      "index": 30,
+      "id": "gratin",
+      "name": "Gratin",
+      "calo": 550,
+      "description": "Món nướng kiểu Pháp, thường dùng khoai tây hoặc mì với kem, phô mai phủ trên."
+    },
+    {
+      "index": 31,
+      "id": "sauteed vegetables",
+      "name": "Rau xào",
+      "calo": 200,
+      "description": "Rau tươi xào nhanh với tỏi, dầu ăn hoặc bơ, giữ vị giòn ngọt."
+    },
+    {
+      "index": 32,
+      "id": "croquette",
+      "name": "Bánh croquette chiên",
+      "calo": 300,
+      "description": "Bánh khoai tây nghiền bọc vụn bánh mì chiên giòn, nhân có thể kèm thịt hoặc rau."
+    },
+    {
+      "index": 33,
+      "id": "grilled eggplant",
+      "name": "Cà tím nướng",
+      "calo": 150,
+      "description": "Cà tím nướng mềm, giữ vị ngọt tự nhiên, có thể ăn kèm nước sốt miso."
+    },
+    {
+      "index": 34,
+      "id": "sauteed spinach",
+      "name": "Rau chân vịt xào",
+      "calo": 180,
+      "description": "Rau chân vịt (rau bó xôi) xào nhanh với tỏi, rất giàu sắt và vitamin."
+    },
+    {
+      "index": 35,
+      "id": "vegetable tempura",
+      "name": "Rau tempura",
+      "calo": 350,
+      "description": "Rau củ tẩm bột chiên giòn kiểu Nhật, ăn kèm nước chấm nhẹ."
+    },
+    {
+      "index": 36,
+      "id": "miso soup",
+      "name": "Súp miso",
+      "calo": 70,
+      "description": "Súp Nhật từ tương miso, rong biển, đậu phụ và hành lá, thanh mát nhẹ."
+    },
+    {
+      "index": 37,
+      "id": "potage",
+      "name": "Súp kem (Potage)",
+      "calo": 180,
+      "description": "Súp kem mịn kiểu Tây, từ rau củ nghiền nhuyễn và kem tươi."
+    },
+    {
+      "index": 38,
+      "id": "sausage",
+      "name": "Xúc xích",
+      "calo": 300,
+      "description": "Xúc xích nướng hoặc chiên, có thể ăn kèm mù tạt hoặc tương cà."
+    },
+    {
+      "index": 39,
+      "id": "oden",
+      "name": "Oden",
+      "calo": 400,
+      "description": "Lẩu Nhật gồm trứng, củ cải, chả cá, đậu hũ, ninh trong nước dashi nhẹ."
+    },
+    {
+      "index": 40,
+      "id": "omelet",
+      "name": "Trứng chiên (Omelet)",
+      "calo": 250,
+      "description": "Trứng chiên mềm, có thể kèm rau, thịt hoặc phô mai."
+    },
+    {
+      "index": 41,
+      "id": "ganmodoki",
+      "name": "Đậu phụ chiên Ganmodoki",
+      "calo": 220,
+      "description": "Đậu phụ nghiền trộn rau củ, nấm, chiên giòn; món chay phổ biến trong ẩm thực Nhật."
+    },
+    {
+      "index": 42,
+      "id": "jiaozi",
+      "name": "Há cảo (Jiaozi)",
+      "calo": 300,
+      "description": "Bánh gối Trung Hoa, nhân thịt và rau, có thể hấp, luộc hoặc chiên."
+    },
+    {
+      "index": 43,
+      "id": "stew",
+      "name": "Món hầm",
+      "calo": 400,
+      "description": "Thịt và rau củ hầm mềm trong nước sốt đậm đà, giàu dinh dưỡng."
+    },
+    {
+      "index": 44,
+      "id": "teriyaki grilled fish",
+      "name": "Cá nướng Teriyaki",
+      "calo": 350,
+      "description": "Cá nướng phủ sốt teriyaki ngọt mặn đặc trưng của Nhật."
+    },
+    {
+      "index": 45,
+      "id": "fried fish",
+      "name": "Cá chiên",
+      "calo": 400,
+      "description": "Cá tẩm bột chiên giòn, thường ăn kèm chanh và sốt tartar."
+    },
+    {
+      "index": 46,
+      "id": "grilled salmon",
+      "name": "Cá hồi nướng",
+      "calo": 420,
+      "description": "Cá hồi tẩm muối hoặc sốt nhẹ, nướng chín giữ vị béo tự nhiên."
+    },
+    {
+      "index": 47,
+      "id": "salmon meuniere",
+      "name": "Cá hồi sốt bơ chanh (Meunière)",
+      "calo": 450,
+      "description": "Cá hồi áp chảo với bơ, chanh, kiểu Pháp, thơm béo."
+    },
+    {
+      "index": 48,
+      "id": "sashimi",
+      "name": "Sashimi",
+      "calo": 250,
+      "description": "Cá sống thái lát mỏng, ăn kèm mù tạt và nước tương, món tươi mát nổi tiếng của Nhật."
+    },
+    {
+      "index": 49,
+      "id": "grilled pacific saury",
+      "name": "Cá thu đao nướng",
+      "calo": 350,
+      "description": "Cá thu đao nướng nguyên con, vị béo, da giòn, đặc sản mùa thu Nhật Bản."
+    },
+    {
+      "index": 50,
+      "id": "sukiyaki",
+      "name": "Lẩu Sukiyaki",
+      "calo": 600,
+      "description": "Thịt bò thái mỏng, rau, đậu phụ nấu trong nước sốt ngọt mặn đặc trưng, chấm trứng sống."
+    },
+    {
+      "index": 51,
+      "id": "sweet and sour pork",
+      "name": "Thịt heo xào chua ngọt",
+      "calo": 500,
+      "description": "Thịt heo chiên giòn, xào cùng nước sốt chua ngọt, rau củ."
+    },
+    {
+      "index": 52,
+      "id": "lightly roasted fish",
+      "name": "Cá nướng sơ",
+      "calo": 300,
+      "description": "Cá nướng nhanh, giữ độ mềm và vị ngọt tự nhiên."
+    },
+    {
+      "index": 53,
+      "id": "steamed egg hotchpotch",
+      "name": "Trứng hấp Chawanmushi",
+      "calo": 150,
+      "description": "Trứng hấp kiểu Nhật, mềm mịn, kèm nấm, hải sản hoặc gà."
+    },
+    {
+      "index": 54,
+      "id": "tempura",
+      "name": "Tempura",
+      "calo": 450,
+      "description": "Hải sản và rau củ tẩm bột chiên giòn, ăn kèm nước chấm nhẹ."
+    },
+    {
+      "index": 55,
+      "id": "fried chicken",
+      "name": "Gà chiên",
+      "calo": 550,
+      "description": "Thịt gà tẩm gia vị chiên giòn, kiểu karaage Nhật hoặc gà rán phương Tây."
+    },
+    {
+      "index": 56,
+      "id": "sirloin cutlet",
+      "name": "Thịt thăn chiên xù",
+      "calo": 600,
+      "description": "Thịt thăn bò hoặc heo, tẩm bột chiên xù giòn, bên trong mềm."
+    },
+    {
+      "index": 57,
+      "id": "nanbanzuke",
+      "name": "Cá chiên ngâm giấm Nanbanzuke",
+      "calo": 400,
+      "description": "Cá chiên giòn, ngâm nước giấm ngọt mặn với rau củ thái mỏng."
+    },
+    {
+      "index": 58,
+      "id": "boiled fish",
+      "name": "Cá kho",
+      "calo": 350,
+      "description": "Cá kho với nước tương, đường, gừng, vị mặn ngọt đậm đà."
+    },
+    {
+      "index": 59,
+      "id": "seasoned beef with potatoes",
+      "name": "Thịt bò kho khoai tây",
+      "calo": 500,
+      "description": "Thịt bò nấu mềm với khoai tây, nước sốt mặn ngọt kiểu Nhật (Niku-jaga)."
+    },
+    {
+      "index": 60,
+      "id": "hambarg steak",
+      "name": "Bít tết hamburger",
+      "calo": 550,
+      "description": "Thịt băm dày, nướng hoặc áp chảo, phủ sốt demi-glace hoặc sốt nâu."
+    },
+    {
+      "index": 61,
+      "id": "steak",
+      "name": "Bít tết",
+      "calo": 650,
+      "description": "Thịt bò nướng hoặc áp chảo, mềm mọng, thường ăn kèm rau và sốt."
+    },
+    {
+      "index": 62,
+      "id": "dried fish",
+      "name": "Cá khô",
+      "calo": 300,
+      "description": "Cá phơi khô, nướng hoặc chiên, vị mặn đặc trưng, dùng với cơm."
+    },
+    {
+      "index": 63,
+      "id": "ginger pork saute",
+      "name": "Thịt heo xào gừng",
+      "calo": 500,
+      "description": "Thịt heo thái lát mỏng, xào với gừng và sốt mặn ngọt đậm đà."
+    },
+    {
+      "index": 64,
+      "id": "spicy chili-flavored tofu",
+      "name": "Đậu phụ Tứ Xuyên (Mapo Tofu)",
+      "calo": 450,
+      "description": "Đậu phụ mềm nấu cùng thịt băm, sốt cay Tứ Xuyên, ăn với cơm."
+    },
+    {
+      "index": 65,
+      "id": "yakitori",
+      "name": "Gà xiên nướng Yakitori",
+      "calo": 400,
+      "description": "Gà xiên nướng sốt tare hoặc muối, món nhậu nổi tiếng của Nhật."
+    },
+    {
+      "index": 66,
+      "id": "cabbage roll",
+      "name": "Bắp cải cuộn thịt",
+      "calo": 350,
+      "description": "Thịt xay cuộn lá bắp cải, hầm mềm, vị ngọt thanh, ít béo."
+    },
+    {
+      "index": 67,
+      "id": "omelet",
+      "name": "Trứng chiên",
+      "calo": 250,
+      "description": "Trứng chiên mềm mịn, có thể thêm rau hoặc phô mai."
+    },
+    {
+      "index": 68,
+      "id": "egg sunny-side up",
+      "name": "Trứng ốp la",
+      "calo": 180,
+      "description": "Trứng chiên một mặt, lòng đỏ chảy, ăn sáng nhanh và giàu dinh dưỡng."
+    },
+    {
+      "index": 69,
+      "id": "natto",
+      "name": "Natto (Đậu nành lên men)",
+      "calo": 200,
+      "description": "Đậu nành lên men truyền thống Nhật, có mùi nồng đặc trưng, giàu protein."
+    },
+    {
+      "index": 70,
+      "id": "cold tofu",
+      "name": "Đậu phụ lạnh (Hiyayakko)",
+      "calo": 120,
+      "description": "Đậu phụ mát, ăn kèm gừng bào, hành lá, nước tương; thanh mát."
+    },
+    {
+      "index": 71,
+      "id": "egg roll",
+      "name": "Trứng cuộn (Tamagoyaki)",
+      "calo": 200,
+      "description": "Trứng chiên cuộn kiểu Nhật, vị hơi ngọt, mềm mịn, thường ăn với sushi."
+    },
+    {
+      "index": 72,
+      "id": "chilled noodle",
+      "name": "Mì lạnh",
+      "calo": 350,
+      "description": "Mì luộc, rửa lạnh, ăn kèm nước chấm tsuyu, rau củ, mát giải nhiệt mùa hè."
+    },
+    {
+      "index": 73,
+      "id": "stir-fried beef and peppers",
+      "name": "Bò xào ớt chuông",
+      "calo": 500,
+      "description": "Thịt bò xào ớt chuông, đậm vị, ăn kèm cơm trắng rất ngon."
+    },
+    {
+      "index": 74,
+      "id": "simmered pork",
+      "name": "Thịt heo kho",
+      "calo": 450,
+      "description": "Thịt heo kho với nước tương, đường, gừng; mềm, thơm, đậm đà."
+    },
+    {
+      "index": 75,
+      "id": "boiled chicken and vegetables",
+      "name": "Gà luộc rau củ",
+      "calo": 350,
+      "description": "Thịt gà luộc cùng rau củ, giữ vị ngọt tự nhiên, ít béo, tốt cho sức khỏe."
+    },
+    {
+      "index": 76,
+      "id": "sashimi bowl",
+      "name": "Cơm sashimi (Kaisen-don)",
+      "calo": 500,
+      "description": "Cơm ăn kèm nhiều loại sashimi tươi, thanh mát, bổ dưỡng."
+    },
+    {
+      "index": 77,
+      "id": "sushi bowl",
+      "name": "Cơm sushi (Chirashi-don)",
+      "calo": 520,
+      "description": "Cơm giấm phủ nhiều loại hải sản, trứng, rau củ, nhiều màu sắc."
+    },
+    {
+      "index": 78,
+      "id": "fish-shaped pancake with bean jam",
+      "name": "Bánh cá Taiyaki",
+      "calo": 300,
+      "description": "Bánh nướng hình cá, nhân đậu đỏ ngọt, vỏ giòn mềm."
+    },
+    {
+      "index": 79,
+      "id": "shrimp with chili sauce",
+      "name": "Tôm sốt cay",
+      "calo": 400,
+      "description": "Tôm chiên xào sốt cay kiểu Trung Hoa, vị đậm đà, ngon cơm."
+    },
+    {
+      "index": 80,
+      "id": "roast chicken",
+      "name": "Gà nướng",
+      "calo": 450,
+      "description": "Gà tẩm gia vị nướng vàng, da giòn, thịt mềm, thơm béo."
+    },
+    {
+      "index": 81,
+      "id": "steamed meat dumpling",
+      "name": "Há cảo hấp (Shumai)",
+      "calo": 250,
+      "description": "Há cảo nhân thịt, hấp mềm, ăn kèm xì dầu, gừng bào."
+    },
+    {
+      "index": 82,
+      "id": "omelet with fried rice",
+      "name": "Cơm chiên trứng (Omurice)",
+      "calo": 550,
+      "description": "Cơm chiên bọc trứng chiên mỏng, ăn kèm sốt ketchup hoặc demi-glace."
+    },
+    {
+      "index": 83,
+      "id": "cutlet curry",
+      "name": "Cơm cà ri katsu",
+      "calo": 750,
+      "description": "Cơm cà ri Nhật kèm thịt chiên xù giòn, đậm đà, béo."
+    },
+    {
+      "index": 84,
+      "id": "spaghetti meat sauce",
+      "name": "Mì Ý sốt thịt",
+      "calo": 500,
+      "description": "Mì Ý luộc, sốt thịt bò băm, cà chua, thơm, béo, đậm vị."
+    },
+    {
+      "index": 85,
+      "id": "fried shrimp",
+      "name": "Tôm chiên xù",
+      "calo": 400,
+      "description": "Tôm tẩm bột chiên giòn, ăn kèm sốt tartar hoặc sốt chua ngọt."
+    },
+    {
+      "index": 86,
+      "id": "potato salad",
+      "name": "Salad khoai tây",
+      "calo": 250,
+      "description": "Khoai tây nghiền trộn mayonnaise, dưa leo, cà rốt; vị béo nhẹ."
+    },
+    {
+      "index": 87,
+      "id": "green salad",
+      "name": "Salad rau xanh",
+      "calo": 120,
+      "description": "Rau xanh tươi, xà lách, cà chua, dưa leo, ăn kèm sốt mè hoặc vinaigrette."
+    },
+    {
+      "index": 88,
+      "id": "macaroni salad",
+      "name": "Salad nui",
+      "calo": 300,
+      "description": "Nui luộc trộn mayonnaise, rau củ, đôi khi thêm giăm bông hoặc trứng."
+    },
+    {
+      "index": 89,
+      "id": "Japanese tofu and vegetable chowder",
+      "name": "Canh đậu phụ rau củ kiểu Nhật",
+      "calo": 200,
+      "description": "Đậu phụ nấu cùng rau củ, nước dùng dashi thanh nhẹ, ít béo."
+    },
+    {
+      "index": 90,
+      "id": "pork miso soup",
+      "name": "Súp miso thịt heo",
+      "calo": 250,
+      "description": "Súp miso thêm thịt heo, củ cải, cà rốt; đậm đà, ấm bụng."
+    },
+
+    {
+      "index": 91,
+      "id": "chinese soup",
+      "name": "Súp kiểu Trung Hoa",
+      "calo": 150,
+      "description": "Súp thanh nhẹ, thường có nấm, trứng đánh, đậu phụ và thịt băm."
+    },
+    {
+      "index": 92,
+      "id": "beef bowl",
+      "name": "Cơm bò (Gyudon)",
+      "calo": 550,
+      "description": "Cơm trắng ăn kèm thịt bò xào hành ngọt, mềm, đậm đà."
+    },
+    {
+      "index": 93,
+      "id": "kinpira-style sauteed burdock",
+      "name": "Ngưu bàng xào kiểu Kinpira",
+      "calo": 180,
+      "description": "Ngưu bàng xào ngọt mặn cùng cà rốt, giòn và thơm đặc trưng."
+    },
+    {
+      "index": 94,
+      "id": "rice ball",
+      "name": "Cơm nắm (Onigiri)",
+      "calo": 200,
+      "description": "Cơm nắm hình tam giác hoặc tròn, thường có nhân cá hồi hoặc mơ muối."
+    },
+    {
+      "index": 95,
+      "id": "pizza toast",
+      "name": "Bánh mì nướng pizza",
+      "calo": 400,
+      "description": "Bánh mì nướng phủ phô mai, sốt cà, thịt nguội, rau; kiểu pizza đơn giản."
+    },
+    {
+      "index": 96,
+      "id": "dipping noodles",
+      "name": "Mì chấm (Tsukemen)",
+      "calo": 550,
+      "description": "Mì lạnh ăn riêng, chấm vào nước súp đậm vị trước khi ăn."
+    },
+    {
+      "index": 97,
+      "id": "hot dog",
+      "name": "Xúc xích kẹp bánh mì",
+      "calo": 450,
+      "description": "Bánh mì kẹp xúc xích, sốt cà chua, mù tạt, dưa leo hoặc hành."
+    },
+    {
+      "index": 98,
+      "id": "french fries",
+      "name": "Khoai tây chiên",
+      "calo": 350,
+      "description": "Khoai tây thái sợi, chiên giòn, ăn kèm muối hoặc sốt chua ngọt."
+    },
+    {
+      "index": 99,
+      "id": "mixed rice",
+      "name": "Cơm trộn",
+      "calo": 500,
+      "description": "Cơm trộn rau, thịt, gia vị; hương vị đậm đà, dễ ăn."
+    },
+    {
+      "index": 100,
+      "id": "goya chanpuru",
+      "name": "Goya Chanpuru",
+      "calo": 400,
+      "description": "Mướp đắng xào trứng, đậu phụ, thịt lợn; đặc sản Okinawa, vị hơi đắng."
+    },
+    {
+      "index": 101,
+      "id": "green curry",
+      "name": "Cà ri xanh",
+      "calo": 600,
+      "description": "Cà ri Thái vị cay nhẹ, nấu cùng thịt gà và rau củ xanh, thơm dừa."
+    },
+    {
+      "index": 102,
+      "id": "okinawa soba",
+      "name": "Mì soba Okinawa",
+      "calo": 500,
+      "description": "Mì nước kiểu Okinawa, sợi dày, ăn với thịt heo hầm, dashi thanh."
+    },
+    {
+      "index": 103,
+      "id": "mango pudding",
+      "name": "Pudding xoài",
+      "calo": 200,
+      "description": "Món tráng miệng mềm mịn, thơm mùi xoài, ngọt mát."
+    },
+    {
+      "index": 104,
+      "id": "almond jelly",
+      "name": "Thạch hạnh nhân",
+      "calo": 180,
+      "description": "Món tráng miệng mịn, hương hạnh nhân nhẹ, thường ăn kèm trái cây."
+    },
+    {
+      "index": 105,
+      "id": "jjigae",
+      "name": "Canh hầm Hàn Quốc (Jjigae)",
+      "calo": 400,
+      "description": "Canh hầm cay kiểu Hàn, thường có kimchi, đậu phụ, thịt và rau."
+    },
+    {
+      "index": 106,
+      "id": "dak galbi",
+      "name": "Gà xào cay Hàn Quốc (Dak Galbi)",
+      "calo": 600,
+      "description": "Gà xào tương ớt gochujang, rau và bánh gạo, cay ngọt đậm đà."
+    },
+    {
+      "index": 107,
+      "id": "dry curry",
+      "name": "Cà ri khô",
+      "calo": 550,
+      "description": "Cơm trộn thịt xay xào cà ri, ít nước, thơm đậm vị."
+    },
+    {
+      "index": 108,
+      "id": "kamameshi",
+      "name": "Cơm niêu Kamameshi",
+      "calo": 550,
+      "description": "Cơm nấu trong niêu, kèm nấm, hải sản, rau củ; thơm, ngọt."
+    },
+    {
+      "index": 109,
+      "id": "rice vermicelli",
+      "name": "Bún gạo",
+      "calo": 400,
+      "description": "Bún trắng mỏng, ăn kèm thịt, rau, nước mắm hoặc nước dùng."
+    },
+    {
+      "index": 110,
+      "id": "paella",
+      "name": "Cơm Paella Tây Ban Nha",
+      "calo": 600,
+      "description": "Cơm chiên nghệ, hải sản, thịt, đậm vị Địa Trung Hải, nhiều màu sắc."
+    },
+    {
+      "index": 111,
+      "id": "tanmen",
+      "name": "Mì Tanmen",
+      "calo": 500,
+      "description": "Mì nước Nhật Bản, vị thanh, rau nhiều, thường ít cay hơn ramen."
+    },
+    {
+      "index": 112,
+      "id": "kushikatu",
+      "name": "Xiên chiên xù (Kushikatsu)",
+      "calo": 500,
+      "description": "Thịt, hải sản hoặc rau xiên que, tẩm bột chiên giòn."
+    },
+    {
+      "index": 113,
+      "id": "yellow curry",
+      "name": "Cà ri vàng",
+      "calo": 550,
+      "description": "Cà ri Thái vị nhẹ, thơm cốt dừa, màu vàng nghệ, ăn với cơm."
+    },
+    {
+      "index": 114,
+      "id": "pancake",
+      "name": "Bánh pancake",
+      "calo": 350,
+      "description": "Bánh mềm xốp, thường ăn kèm siro, trái cây, bơ."
+    },
+    {
+      "index": 115,
+      "id": "champon",
+      "name": "Mì Champon",
+      "calo": 550,
+      "description": "Mì nước hải sản, rau củ, nước súp béo nhẹ, đặc sản Nagasaki."
+    },
+    {
+      "index": 116,
+      "id": "crape",
+      "name": "Bánh crepe",
+      "calo": 300,
+      "description": "Bánh mỏng, cuộn trái cây, kem, sốt socola hoặc mứt."
+    },
+    {
+      "index": 117,
+      "id": "tiramisu",
+      "name": "Bánh tiramisu",
+      "calo": 400,
+      "description": "Bánh Ý, lớp mascarpone béo mịn, ca cao, vị cà phê nhẹ."
+    },
+    {
+      "index": 118,
+      "id": "waffle",
+      "name": "Bánh waffle",
+      "calo": 350,
+      "description": "Bánh nướng hình caro, giòn ngoài, mềm trong, ăn kèm siro, kem."
+    },
+    {
+      "index": 119,
+      "id": "rare cheese cake",
+      "name": "Bánh cheesecake lạnh",
+      "calo": 350,
+      "description": "Cheesecake không nướng, mịn, béo nhẹ, vị chua thanh mát."
+    },
+    {
+      "index": 120,
+      "id": "shortcake",
+      "name": "Bánh kem shortcake",
+      "calo": 400,
+      "description": "Bánh bông lan mềm, kem tươi, dâu tây, nhẹ và không quá ngọt."
+    },
+    {
+      "index": 121,
+      "id": "chop suey",
+      "name": "Rau xào thập cẩm (Chop suey)",
+      "calo": 350,
+      "description": "Rau củ và thịt xào nhanh, vị hơi ngọt, giòn, đậm đà kiểu Trung Hoa."
+    },
+    {
+      "index": 122,
+      "id": "twice cooked pork",
+      "name": "Thịt heo xào ớt (Twice-cooked pork)",
+      "calo": 500,
+      "description": "Thịt ba chỉ luộc sơ rồi xào cay với ớt và hành, đậm vị."
+    },
+    {
+      "index": 123,
+      "id": "mushroom risotto",
+      "name": "Cơm risotto nấm",
+      "calo": 500,
+      "description": "Cơm nấu kem phô mai béo, nấm thơm, kiểu Ý, dẻo mềm."
+    },
+    {
+      "index": 124,
+      "id": "samul",
+      "name": "Samul (rau cuốn Hàn Quốc)",
+      "calo": 100,
+      "description": "Các loại lá, rau sống cuốn thịt nướng, chấm sốt ssamjang, thanh mát."
+    },
+    {
+      "index": 125,
+      "id": "zoni",
+      "name": "Canh bánh mochi (Zoni)",
+      "calo": 400,
+      "description": "Canh nước dùng dashi, bánh mochi mềm, rau củ; ăn Tết Nhật."
+    },
+    {
+      "index": 126,
+      "id": "french toast",
+      "name": "Bánh mì nướng kiểu Pháp",
+      "calo": 350,
+      "description": "Bánh mì ngâm sữa trứng, chiên vàng, mềm, ăn kèm mật ong hoặc trái cây."
+    },
+    {
+      "index": 127,
+      "id": "fine white noodles",
+      "name": "Mì somen lạnh",
+      "calo": 300,
+      "description": "Mì mỏng trắng, luộc lạnh, ăn với nước chấm tsuyu, mát và thanh."
+    },
+    {
+      "index": 128,
+      "id": "minestrone",
+      "name": "Súp rau củ kiểu Ý (Minestrone)",
+      "calo": 250,
+      "description": "Súp rau củ, đậu, cà chua, đôi khi có nui; giàu vitamin."
+    },
+    {
+      "index": 129,
+      "id": "pot au feu",
+      "name": "Canh hầm kiểu Pháp (Pot-au-feu)",
+      "calo": 400,
+      "description": "Thịt bò, rau củ hầm mềm, vị ngọt tự nhiên, thanh đạm."
+    },
+    {
+      "index": 130,
+      "id": "chicken nugget",
+      "name": "Gà nugget",
+      "calo": 450,
+      "description": "Thịt gà xay viên, tẩm bột chiên giòn, ăn kèm sốt chua ngọt hoặc mayonnaise."
+    },
+    {
+      "index": 131,
+      "id": "namero",
+      "name": "Namero (cá băm kiểu Nhật)",
+      "calo": 250,
+      "description": "Cá tươi băm nhuyễn trộn miso, gừng và hành, ăn kèm cơm."
+    },
+    {
+      "index": 132,
+      "id": "french bread",
+      "name": "Bánh mì Pháp (baguette)",
+      "calo": 300,
+      "description": "Bánh dài giòn vỏ, ruột mềm, ăn kèm bơ hoặc phô mai."
+    },
+    {
+      "index": 133,
+      "id": "rice gruel",
+      "name": "Cháo gạo",
+      "calo": 150,
+      "description": "Cháo nấu loãng từ gạo, dễ tiêu, ăn sáng hoặc khi bệnh."
+    },
+    {
+      "index": 134,
+      "id": "broiled eel bowl",
+      "name": "Cơm lươn nướng (Unadon)",
+      "calo": 700,
+      "description": "Cơm phủ lươn nướng sốt ngọt mặn, giàu dinh dưỡng."
+    },
+    {
+      "index": 135,
+      "id": "clear soup",
+      "name": "Súp trong (osuimono)",
+      "calo": 100,
+      "description": "Súp thanh trong, có nấm, đậu phụ hoặc rong biển."
+    },
+    {
+      "index": 136,
+      "id": "yudofu",
+      "name": "Đậu phụ luộc (Yudofu)",
+      "calo": 120,
+      "description": "Đậu phụ luộc nước dashi, chấm sốt, nhẹ và thanh mát."
+    },
+    {
+      "index": 137,
+      "id": "mozuku",
+      "name": "Rong nho Mozuku",
+      "calo": 50,
+      "description": "Rong biển sợi giòn, ăn lạnh với giấm, tốt cho sức khỏe."
+    },
+    {
+      "index": 138,
+      "id": "inarizushi",
+      "name": "Sushi đậu phụ chiên (Inarizushi)",
+      "calo": 250,
+      "description": "Cơm sushi bọc trong túi đậu chiên ngọt mặn."
+    },
+    {
+      "index": 139,
+      "id": "pork loin cutlet",
+      "name": "Thịt heo chiên xù (thăn lưng)",
+      "calo": 600,
+      "description": "Miếng thăn heo chiên giòn, ăn kèm sốt tonkatsu và bắp cải."
+    },
+    {
+      "index": 140,
+      "id": "pork fillet cutlet",
+      "name": "Thịt heo chiên xù (fillet)",
+      "calo": 580,
+      "description": "Thịt heo mềm, ít mỡ, chiên giòn, béo vừa phải."
+    },
+    {
+      "index": 141,
+      "id": "chicken cutlet",
+      "name": "Thịt gà chiên xù",
+      "calo": 550,
+      "description": "Ức gà chiên giòn, ăn kèm cơm hoặc sandwich."
+    },
+    {
+      "index": 142,
+      "id": "ham cutlet",
+      "name": "Giăm bông chiên xù",
+      "calo": 450,
+      "description": "Giăm bông tẩm bột chiên giòn, vị đậm đà, ăn vặt hoặc cơm."
+    },
+    {
+      "index": 143,
+      "id": "minced meat cutlet",
+      "name": "Miếng thịt băm chiên xù (Menchi katsu)",
+      "calo": 500,
+      "description": "Thịt băm viên chiên giòn, nhân mềm, thơm."
+    },
+    {
+      "index": 144,
+      "id": "thinly sliced raw horsemeat",
+      "name": "Thịt ngựa sống (Basashi)",
+      "calo": 300,
+      "description": "Thịt ngựa thái lát mỏng, ăn sống, ngọt và ít béo."
+    },
+    {
+      "index": 145,
+      "id": "bagel",
+      "name": "Bánh bagel",
+      "calo": 280,
+      "description": "Bánh tròn đặc ruột, ăn kèm kem phô mai hoặc thịt nguội."
+    },
+    {
+      "index": 146,
+      "id": "scone",
+      "name": "Bánh scone",
+      "calo": 300,
+      "description": "Bánh ngọt mềm, dùng với trà, mứt hoặc kem tươi."
+    },
+    {
+      "index": 147,
+      "id": "tortilla",
+      "name": "Bánh tortilla",
+      "calo": 250,
+      "description": "Bánh mỏng Mexico, dùng cuốn thịt, rau, phô mai."
+    },
+    {
+      "index": 148,
+      "id": "tacos",
+      "name": "Tacos",
+      "calo": 400,
+      "description": "Bánh vỏ giòn hoặc mềm, nhân thịt, rau, phô mai."
+    },
+    {
+      "index": 149,
+      "id": "nachos",
+      "name": "Nachos",
+      "calo": 500,
+      "description": "Miếng bột ngô chiên giòn, phủ phô mai, salsa, thịt."
+    },
+    {
+      "index": 150,
+      "id": "meat loaf",
+      "name": "Thịt nướng ổ (Meatloaf)",
+      "calo": 450,
+      "description": "Thịt xay nướng dạng ổ, ăn kèm sốt cà, khoai."
+    },
+    {
+      "index": 151,
+      "id": "scrambled egg",
+      "name": "Trứng bác",
+      "calo": 250,
+      "description": "Trứng đánh tơi, mềm béo, ăn sáng nhanh."
+    },
+    {
+      "index": 152,
+      "id": "rice gratin",
+      "name": "Cơm đút lò (Gratin)",
+      "calo": 600,
+      "description": "Cơm phủ sốt kem, phô mai, nướng vàng, béo."
+    },
+    {
+      "index": 153,
+      "id": "lasagna",
+      "name": "Mì lasagna",
+      "calo": 650,
+      "description": "Mì Ý xếp lớp, sốt thịt, phô mai béo ngậy."
+    },
+    {
+      "index": 154,
+      "id": "Caesar salad",
+      "name": "Salad Caesar",
+      "calo": 350,
+      "description": "Rau xà lách, sốt kem, phô mai, thịt xông khói giòn."
+    },
+    {
+      "index": 155,
+      "id": "oatmeal",
+      "name": "Yến mạch",
+      "calo": 200,
+      "description": "Cháo yến mạch, giàu chất xơ, thường ăn sáng."
+    },
+    {
+      "index": 156,
+      "id": "fried pork dumplings served in soup",
+      "name": "Sủi cảo chiên trong súp",
+      "calo": 450,
+      "description": "Sủi cảo chiên giòn, sau đó nấu súp, thơm đậm đà."
+    },
+    {
+      "index": 157,
+      "id": "oshiruko",
+      "name": "Chè đậu đỏ với bánh mochi (Oshiruko)",
+      "calo": 300,
+      "description": "Món ngọt Nhật, chè đậu đỏ đặc, bánh mochi dẻo."
+    },
+    {
+      "index": 158,
+      "id": "muffin",
+      "name": "Bánh muffin",
+      "calo": 350,
+      "description": "Bánh mềm, có thể thêm trái cây, chocolate."
+    },
+    {
+      "index": 159,
+      "id": "popcorn",
+      "name": "Bắp rang bơ",
+      "calo": 300,
+      "description": "Ngô nổ giòn, thường thêm bơ, caramel hoặc muối."
+    },
+    {
+      "index": 160,
+      "id": "cream puff",
+      "name": "Bánh su kem",
+      "calo": 300,
+      "description": "Vỏ giòn nhẹ, nhân kem béo, mát lạnh."
+    },
+    {
+      "index": 161,
+      "id": "doughnut",
+      "name": "Bánh donut",
+      "calo": 400,
+      "description": "Bánh tròn chiên giòn, phủ đường hoặc chocolate."
+    },
+    {
+      "index": 162,
+      "id": "apple pie",
+      "name": "Bánh táo",
+      "calo": 400,
+      "description": "Bánh nhân táo ngọt, vỏ giòn, thơm quế."
+    },
+    {
+      "index": 163,
+      "id": "parfait",
+      "name": "Kem ly (Parfait)",
+      "calo": 350,
+      "description": "Kem, trái cây, ngũ cốc, trang trí nhiều tầng đẹp mắt."
+    },
+    {
+      "index": 164,
+      "id": "fried pork in scoop",
+      "name": "Thịt heo chiên xào chua ngọt",
+      "calo": 500,
+      "description": "Thịt heo chiên giòn, xào sốt chua ngọt, ăn kèm cơm."
+    },
+    {
+      "index": 165,
+      "id": "lamb kebabs",
+      "name": "Thịt cừu xiên nướng (Kebab)",
+      "calo": 550,
+      "description": "Thịt cừu ướp gia vị xiên que, nướng thơm."
+    },
+    {
+      "index": 166,
+      "id": "dish consisting of stir-fried potato, eggplant and green pepper",
+      "name": "Khoai tây, cà tím, ớt xào",
+      "calo": 400,
+      "description": "Rau củ xào cùng gia vị đậm đà, chay hoặc kèm thịt."
+    },
+    {
+      "index": 167,
+      "id": "roast duck",
+      "name": "Vịt quay",
+      "calo": 650,
+      "description": "Vịt quay da giòn, thịt mềm, vị đậm đà."
+    },
+    {
+      "index": 168,
+      "id": "hot pot",
+      "name": "Lẩu",
+      "calo": 600,
+      "description": "Nồi nước dùng sôi, nhúng thịt, rau, nấm, đa dạng."
+    },
+    {
+      "index": 169,
+      "id": "pork belly",
+      "name": "Ba chỉ heo",
+      "calo": 700,
+      "description": "Ba chỉ nướng hoặc kho, béo ngậy, mềm thơm."
+    },
+    {
+      "index": 170,
+      "id": "xiao long bao",
+      "name": "Bánh bao súp (Xiao long bao)",
+      "calo": 300,
+      "description": "Bánh bao nhỏ, nhân thịt có súp nóng bên trong."
+    },
+    {
+      "index": 171,
+      "id": "moon cake",
+      "name": "Bánh trung thu",
+      "calo": 800,
+      "description": "Bánh ngọt truyền thống, nhân đậu, trứng muối, hạt."
+    },
+    {
+      "index": 172,
+      "id": "custard tart",
+      "name": "Bánh tart trứng",
+      "calo": 300,
+      "description": "Vỏ giòn, nhân trứng sữa mềm, béo nhẹ."
+    },
+    {
+      "index": 173,
+      "id": "beef noodle soup",
+      "name": "Mì bò",
+      "calo": 600,
+      "description": "Mì nước, thịt bò hầm mềm, nước súp đậm đà."
+    },
+    {
+      "index": 174,
+      "id": "pork cutlet",
+      "name": "Thịt heo chiên xù",
+      "calo": 600,
+      "description": "Miếng thịt heo tẩm bột chiên giòn, ăn kèm cơm hoặc salad."
+    },
+    {
+      "index": 175,
+      "id": "minced pork rice",
+      "name": "Cơm thịt băm",
+      "calo": 550,
+      "description": "Cơm trắng với thịt heo băm xào mặn ngọt, phổ biến ở Đài Loan."
+    },
+    {
+      "index": 176,
+      "id": "fish ball soup",
+      "name": "Súp cá viên",
+      "calo": 300,
+      "description": "Súp trong với cá viên mềm dai, thanh đạm, nhẹ bụng."
+    },
+    {
+      "index": 177,
+      "id": "oyster omelette",
+      "name": "Trứng chiên hàu",
+      "calo": 450,
+      "description": "Trứng chiên cùng hàu tươi, sốt chua ngọt, món đặc sản Đài Loan."
+    },
+    {
+      "index": 178,
+      "id": "glutinous oil rice",
+      "name": "Xôi mỡ",
+      "calo": 500,
+      "description": "Xôi nếp trộn mỡ hành, tôm khô, đậm vị béo thơm."
+    },
+    {
+      "index": 179,
+      "id": "trunip pudding",
+      "name": "Bánh củ cải hấp",
+      "calo": 250,
+      "description": "Bánh mềm từ củ cải trắng, hấp lên, dùng nóng."
+    },
+    {
+      "index": 180,
+      "id": "stinky tofu",
+      "name": "Đậu hũ thối",
+      "calo": 300,
+      "description": "Đậu hũ lên men, mùi đặc trưng, chiên giòn ngoài, mềm trong."
+    },
+    {
+      "index": 181,
+      "id": "lemon fig jelly",
+      "name": "Thạch chanh sung",
+      "calo": 150,
+      "description": "Thạch chua thanh, kết hợp sung, giải nhiệt."
+    },
+    {
+      "index": 182,
+      "id": "khao soi",
+      "name": "Mì cà ri kiểu Thái (Khao soi)",
+      "calo": 600,
+      "description": "Mì trứng với cà ri vàng cay nhẹ, gà, rau chua."
+    },
+    {
+      "index": 183,
+      "id": "Sour prawn soup",
+      "name": "Canh chua tôm (Tom Yum)",
+      "calo": 350,
+      "description": "Canh tôm Thái nổi tiếng, chua cay đậm đà."
+    },
+    {
+      "index": 184,
+      "id": "Thai papaya salad",
+      "name": "Gỏi đu đủ Thái",
+      "calo": 250,
+      "description": "Đu đủ xanh bào sợi, chua ngọt cay, ăn kèm lạc rang."
+    },
+    {
+      "index": 185,
+      "id": "boned, sliced Hainan-style chicken with marinated rice",
+      "name": "Cơm gà Hải Nam",
+      "calo": 550,
+      "description": "Gà luộc mềm, cơm thơm nước luộc, nước chấm gừng."
+    },
+    {
+      "index": 186,
+      "id": "hot and sour, fish and vegetable ragout",
+      "name": "Canh cá chua cay",
+      "calo": 400,
+      "description": "Cá hầm rau củ, vị chua cay đậm đà, nóng hổi."
+    },
+    {
+      "index": 187,
+      "id": "stir-fried mixed vegetables",
+      "name": "Rau xào thập cẩm",
+      "calo": 300,
+      "description": "Nhiều loại rau xào cùng gia vị, bổ dưỡng, thanh mát."
+    },
+    {
+      "index": 188,
+      "id": "beef in oyster sauce",
+      "name": "Bò xào sốt hàu",
+      "calo": 500,
+      "description": "Thịt bò mềm xào nước sốt hàu đậm vị, thơm ngon."
+    },
+    {
+      "index": 189,
+      "id": "pork satay",
+      "name": "Heo xiên nướng (satay)",
+      "calo": 450,
+      "description": "Heo ướp gia vị nướng xiên, chấm sốt đậu đặc trưng."
+    },
+    {
+      "index": 190,
+      "id": "spicy chicken salad",
+      "name": "Gỏi gà cay",
+      "calo": 350,
+      "description": "Gà xé trộn rau, ớt, chanh, vị cay chua tươi mát."
+    },
+    {
+      "index": 191,
+      "id": "noodles with fish curry",
+      "name": "Bún cá cà ri",
+      "calo": 500,
+      "description": "Bún mềm, cá, sốt cà ri vàng béo cay."
+    },
+    {
+      "index": 192,
+      "id": "Pork Sticky Noodles",
+      "name": "Mì dính thịt heo",
+      "calo": 550,
+      "description": "Mì xào dính, thấm nước sốt mặn ngọt cùng thịt heo."
+    },
+    {
+      "index": 193,
+      "id": "Pork with lemon",
+      "name": "Thịt heo sốt chanh",
+      "calo": 450,
+      "description": "Thịt heo mềm, vị chua dịu thanh mát, ăn kèm cơm."
+    },
+    {
+      "index": 194,
+      "id": "stewed pork leg",
+      "name": "Giò heo hầm",
+      "calo": 650,
+      "description": "Giò heo ninh nhừ, mềm béo, nước sốt đậm đà."
+    },
+    {
+      "index": 195,
+      "id": "charcoal-boiled pork neck",
+      "name": "Cổ heo nướng than",
+      "calo": 550,
+      "description": "Cổ heo mềm, nướng thơm, chấm sốt cay."
+    },
+    {
+      "index": 196,
+      "id": "fried mussel pancakes",
+      "name": "Bánh xèo hàu",
+      "calo": 500,
+      "description": "Bột giòn, nhân hàu, trứng, rau thơm, chấm nước mắm."
+    },
+    {
+      "index": 197,
+      "id": "Deep Fried Chicken Wing",
+      "name": "Cánh gà chiên giòn",
+      "calo": 500,
+      "description": "Cánh gà tẩm bột chiên giòn rụm, vị mặn ngọt."
+    },
+    {
+      "index": 198,
+      "id": "Barbecued red pork in sauce with rice",
+      "name": "Cơm xá xíu",
+      "calo": 600,
+      "description": "Cơm trắng ăn cùng thịt xá xíu nướng đỏ, sốt ngọt."
+    },
+    {
+      "index": 199,
+      "id": "Rice with roast duck",
+      "name": "Cơm vịt quay",
+      "calo": 650,
+      "description": "Cơm trắng với vịt quay da giòn, thịt mềm."
+    },
+    {
+      "index": 200,
+      "id": "Rice crispy pork",
+      "name": "Cơm heo quay",
+      "calo": 650,
+      "description": "Cơm kèm heo quay giòn bì, sốt mặn ngọt."
+    },
+    {
+      "index": 201,
+      "id": "Wonton soup",
+      "name": "Súp hoành thánh",
+      "calo": 400,
+      "description": "Hoành thánh nhân thịt, tôm, nước súp ngọt thanh."
+    },
+    {
+      "index": 202,
+      "id": "Chicken Rice Curry With Coconut",
+      "name": "Cơm gà cà ri dừa",
+      "calo": 600,
+      "description": "Cơm với gà nấu cà ri nước cốt dừa, béo thơm."
+    },
+    {
+      "index": 203,
+      "id": "Crispy Noodles",
+      "name": "Mì giòn xào",
+      "calo": 550,
+      "description": "Mì chiên giòn, xào rau thịt sốt sệt đậm đà."
+    },
+    {
+      "index": 204,
+      "id": "Egg Noodle In Chicken Yellow Curry",
+      "name": "Mì trứng cà ri gà",
+      "calo": 600,
+      "description": "Mì trứng mềm với cà ri gà vàng cay nhẹ."
+    },
+    {
+      "index": 205,
+      "id": "coconut milk soup",
+      "name": "Súp cốt dừa",
+      "calo": 400,
+      "description": "Súp béo ngậy từ nước cốt dừa, đôi khi kèm hải sản."
+    },
+    {
+      "index": 206,
+      "id": "pho",
+      "name": "Phở",
+      "calo": 500,
+      "description": "Phở bò hoặc gà, nước dùng trong ngọt thanh, rau thơm."
+    },
+    {
+      "index": 207,
+      "id": "Hue beef rice vermicelli soup",
+      "name": "Bún bò Huế",
+      "calo": 600,
+      "description": "Bún sợi to, nước lèo cay, thịt bò, giò heo, rau."
+    },
+    {
+      "index": 208,
+      "id": "Vermicelli noodles with snails",
+      "name": "Bún ốc",
+      "calo": 500,
+      "description": "Bún mềm, ốc giòn, nước dùng chua thanh."
+    },
+    {
+      "index": 209,
+      "id": "Fried spring rolls",
+      "name": "Nem rán",
+      "calo": 400,
+      "description": "Cuốn nhân thịt, miến, rau, chiên giòn, chấm nước mắm."
+    },
+    {
+      "index": 210,
+      "id": "Steamed rice roll",
+      "name": "Bánh cuốn",
+      "calo": 350,
+      "description": "Bánh mỏng mềm, nhân thịt băm, nấm mộc nhĩ."
+    },
+    {
+      "index": 211,
+      "id": "Shrimp patties",
+      "name": "Chả tôm",
+      "calo": 300,
+      "description": "Tôm xay nhuyễn chiên giòn, ăn kèm rau sống và nước chấm."
+    },
+    {
+      "index": 212,
+      "id": "ball shaped bun with pork",
+      "name": "Bánh bao nhân thịt heo",
+      "calo": 350,
+      "description": "Bánh bao tròn mềm, nhân thịt heo mặn ngọt."
+    },
+    {
+      "index": 213,
+      "id": "Coconut milk-flavored crepes with shrimp and beef",
+      "name": "Bánh xèo nhân tôm thịt",
+      "calo": 500,
+      "description": "Bánh mỏng chiên giòn, nhân tôm, thịt, giá, rau sống."
+    },
+    {
+      "index": 214,
+      "id": "Small steamed savory rice pancake",
+      "name": "Bánh bèo",
+      "calo": 250,
+      "description": "Bánh nhỏ hấp, topping tôm khô, mỡ hành, ăn kèm nước mắm."
+    },
+    {
+      "index": 215,
+      "id": "Glutinous Rice Balls",
+      "name": "Chè trôi nước",
+      "calo": 350,
+      "description": "Viên bột nếp dẻo nhân đậu xanh, nước đường gừng."
+    },
+    {
+      "index": 216,
+      "id": "loco moco",
+      "name": "Cơm loco moco",
+      "calo": 600,
+      "description": "Cơm với hamburger, trứng ốp la, sốt nâu kiểu Hawaii."
+    },
+    {
+      "index": 217,
+      "id": "haupia",
+      "name": "Bánh haupia",
+      "calo": 300,
+      "description": "Bánh pudding dừa mềm mịn, ngọt béo, món tráng miệng Hawaii."
+    },
+    {
+      "index": 218,
+      "id": "malasada",
+      "name": "Bánh rán malasada",
+      "calo": 400,
+      "description": "Bánh rán phủ đường, đặc trưng kiểu Hawaii, xốp mềm."
+    },
+    {
+      "index": 219,
+      "id": "laulau",
+      "name": "Laulau",
+      "calo": 500,
+      "description": "Thịt lợn hoặc cá gói lá taro, hấp chín, món Hawaii truyền thống."
+    },
+    {
+      "index": 220,
+      "id": "spam musubi",
+      "name": "Cơm nắm Spam",
+      "calo": 450,
+      "description": "Cơm nắm kẹp thịt Spam, gói rong biển, món nhanh gọn Hawaii."
+    },
+    {
+      "index": 221,
+      "id": "oxtail soup",
+      "name": "Súp đuôi bò",
+      "calo": 400,
+      "description": "Súp nấu từ đuôi bò, đậm vị, thường có củ cải và gừng."
+    },
+    {
+      "index": 222,
+      "id": "adobo",
+      "name": "Gà/kho thịt kiểu Adobo",
+      "calo": 500,
+      "description": "Gà hoặc thịt heo kho xì dầu, giấm, tiêu, đặc trưng Philippines."
+    },
+    {
+      "index": 223,
+      "id": "lumpia",
+      "name": "Chả giò Philippines",
+      "calo": 350,
+      "description": "Cuốn nhân rau, thịt, chiên giòn, giống nem Việt Nam."
+    },
+    {
+      "index": 224,
+      "id": "brownie",
+      "name": "Bánh brownie",
+      "calo": 450,
+      "description": "Bánh sô-cô-la mềm ẩm, đậm đà vị cacao."
+    },
+    {
+      "index": 225,
+      "id": "churro",
+      "name": "Bánh churro",
+      "calo": 400,
+      "description": "Bánh rán que dài, phủ đường quế, giòn ngoài mềm trong."
+    },
+    {
+      "index": 226,
+      "id": "jambalaya",
+      "name": "Cơm jambalaya",
+      "calo": 600,
+      "description": "Cơm trộn hải sản, xúc xích, cay nồng kiểu Cajun/Creole."
+    },
+    {
+      "index": 227,
+      "id": "nasi goreng",
+      "name": "Cơm chiên nasi goreng",
+      "calo": 550,
+      "description": "Cơm chiên cay kiểu Indonesia, thường kèm trứng chiên."
+    },
+    {
+      "index": 228,
+      "id": "ayam goreng",
+      "name": "Gà chiên Indonesia",
+      "calo": 500,
+      "description": "Gà ướp gia vị đậm đà, chiên vàng giòn."
+    },
+    {
+      "index": 229,
+      "id": "ayam bakar",
+      "name": "Gà nướng Indonesia",
+      "calo": 500,
+      "description": "Gà nướng than, vị ngọt mặn, dùng với cơm hoặc rau."
+    },
+    {
+      "index": 230,
+      "id": "bubur ayam",
+      "name": "Cháo gà Indonesia",
+      "calo": 400,
+      "description": "Cháo trắng với thịt gà, rau thơm, đậu phộng, bánh quẩy."
+    },
+    {
+      "index": 231,
+      "id": "gulai",
+      "name": "Cà ri gulai",
+      "calo": 600,
+      "description": "Cà ri đậm vị dừa, cay nhẹ, nấu thịt hoặc hải sản."
+    },
+    {
+      "index": 232,
+      "id": "laksa",
+      "name": "Mì laksa",
+      "calo": 600,
+      "description": "Mì nước cà ri dừa cay kiểu Malaysia, tôm, đậu hũ, trứng."
+    },
+    {
+      "index": 233,
+      "id": "mie ayam",
+      "name": "Mì gà Indonesia",
+      "calo": 500,
+      "description": "Mì sợi vàng mềm, gà xé, rau xào, nước sốt mặn ngọt."
+    },
+    {
+      "index": 234,
+      "id": "mie goreng",
+      "name": "Mì xào Indonesia",
+      "calo": 550,
+      "description": "Mì xào rau củ, thịt hoặc hải sản, cay ngọt đậm đà."
+    },
+    {
+      "index": 235,
+      "id": "nasi campur",
+      "name": "Cơm thập cẩm",
+      "calo": 600,
+      "description": "Cơm ăn cùng nhiều món mặn, rau, trứng, nước sốt."
+    },
+    {
+      "index": 236,
+      "id": "nasi padang",
+      "name": "Cơm Padang",
+      "calo": 650,
+      "description": "Cơm với nhiều món mặn kiểu Sumatra, cay đậm, phong phú."
+    },
+    {
+      "index": 237,
+      "id": "nasi uduk",
+      "name": "Cơm dừa Indonesia",
+      "calo": 550,
+      "description": "Cơm nấu với nước cốt dừa, thơm béo, ăn kèm thịt."
+    },
+    {
+      "index": 238,
+      "id": "babi guling",
+      "name": "Heo quay Bali",
+      "calo": 650,
+      "description": "Heo nguyên con quay giòn, thịt mềm, da giòn thơm."
+    },
+    {
+      "index": 239,
+      "id": "kaya toast",
+      "name": "Bánh mì nướng kaya",
+      "calo": 350,
+      "description": "Bánh mì nướng kẹp mứt kaya (cốt dừa trứng), béo ngọt."
+    },
+    {
+      "index": 240,
+      "id": "bak kut teh",
+      "name": "Canh sườn thuốc bắc",
+      "calo": 500,
+      "description": "Sườn heo ninh với thảo mộc, nước dùng đậm vị thuốc bắc."
+    },
+    {
+      "index": 241,
+      "id": "curry puff",
+      "name": "Bánh cari chiên",
+      "calo": 400,
+      "description": "Bánh vỏ giòn, nhân cari khoai tây, thịt gà hoặc bò."
+    },
+    {
+      "index": 242,
+      "id": "chow mein",
+      "name": "Mì xào kiểu Hoa",
+      "calo": 550,
+      "description": "Mì xào giòn hoặc mềm, rau củ, thịt, nước sốt đậm vị."
+    },
+    {
+      "index": 243,
+      "id": "zha jiang mian",
+      "name": "Mì tương đen",
+      "calo": 500,
+      "description": "Mì sợi ăn kèm sốt tương đen mặn ngọt, thịt băm."
+    },
+    {
+      "index": 244,
+      "id": "kung pao chicken",
+      "name": "Gà Kung Pao",
+      "calo": 550,
+      "description": "Gà xào ớt khô, đậu phộng, nước sốt cay mặn ngọt."
+    },
+    {
+      "index": 245,
+      "id": "crullers",
+      "name": "Quẩy",
+      "calo": 300,
+      "description": "Bánh chiên dài giòn, ăn kèm cháo hoặc sữa đậu nành."
+    },
+    {
+      "index": 246,
+      "id": "eggplant with garlic sauce",
+      "name": "Cà tím xào tỏi",
+      "calo": 400,
+      "description": "Cà tím mềm, xào tỏi và nước sốt đậm vị."
+    },
+    {
+      "index": 247,
+      "id": "three cup chicken",
+      "name": "Gà tam bôi",
+      "calo": 500,
+      "description": "Gà xào gừng, tỏi, lá húng quế, kiểu Đài Loan."
+    },
+    {
+      "index": 248,
+      "id": "bean curd family style",
+      "name": "Đậu hũ tứ xuyên",
+      "calo": 450,
+      "description": "Đậu hũ mềm nấu sốt cay mặn, ăn với cơm trắng."
+    },
+    {
+      "index": 249,
+      "id": "salt & pepper fried shrimp with shell",
+      "name": "Tôm rang muối tiêu",
+      "calo": 500,
+      "description": "Tôm chiên giòn vỏ, xóc muối tiêu, ăn kèm rau sống."
+    },
+    {
+      "index": 250,
+      "id": "baked salmon",
+      "name": "Cá hồi nướng",
+      "calo": 550,
+      "description": "Cá hồi nướng thơm béo, giữ trọn dinh dưỡng."
+    },
+    {
+      "index": 251,
+      "id": "braised pork meat ball with napa cabbage",
+      "name": "Thịt viên hầm cải thảo",
+      "calo": 550,
+      "description": "Thịt viên to ninh cùng cải thảo, nước sốt đậm đà."
+    },
+    {
+      "index": 252,
+      "id": "winter melon soup",
+      "name": "Canh bí đao",
+      "calo": 200,
+      "description": "Canh bí đao thanh mát, nấu tôm hoặc sườn."
+    },
+    {
+      "index": 253,
+      "id": "steamed spareribs",
+      "name": "Sườn hấp",
+      "calo": 500,
+      "description": "Sườn heo hấp mềm, tẩm ướp gia vị đậm đà."
+    },
+    {
+      "index": 254,
+      "id": "chinese pumpkin pie",
+      "name": "Bánh bí đỏ Trung Hoa",
+      "calo": 300,
+      "description": "Bánh mềm từ bí đỏ, nhân đậu hoặc ngọt dịu."
+    },
+    {
+      "index": 255,
+      "id": "eight treasure rice",
+      "name": "Cơm bát bảo",
+      "calo": 550,
+      "description": "Cơm nếp trộn nhiều loại hạt, trái cây khô, ngọt nhẹ."
+    },
+    {
+      "index": 256,
+      "id": "hot & sour soup",
+      "name": "Canh chua cay",
+      "calo": 300,
+      "description": "Canh cay chua, thường có nấm, thịt băm, trứng."
+    }
+  ]
+}
