@@ -1,6 +1,12 @@
+print("Warning: In WSL, There problem in wayland and Qt can't init")
+print("         https://github.com/NVlabs/instant-ngp/discussions/300")
+
+
+
 import sys
 
 print("Starting TensorFlow and Library Setup...")
+
 
 import os
 import numpy as np

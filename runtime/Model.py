@@ -5,7 +5,7 @@ import dotenv
 import io
 from PIL import Image
 import numpy as np
-
+from tensorflow.keras.applications.efficientnet_v2 import preprocess_input as EfficientNetV2B2_preprocess_input
 
 
 env_path = os.path.abspath(os.path.join(os.path.dirname(os.getcwd()), '.env'))
@@ -31,14 +31,14 @@ print("Num GPUs Available: ", len(gpus))
 
 if os.getenv('IS_CUDA') == 'True':
 
-    mem_limit = int(os.getenv('MEMORY_LIMIT', "4096"))  # Default to 10GB if not set
+    mem_limit = int(os.getenv('MEMORY_LIMIT', "1840"))  # Default to 10GB if not set
     if gpus:
         try:
             for gpu in gpus:
                 tf.config.experimental.set_memory_growth(gpu, True)
                 tf.config.experimental.set_virtual_device_configuration(
                     gpu,
-                    [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=3840)]
+                    [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=1536)]
                 )
         except RuntimeError as e:
             # print(e)
@@ -54,9 +54,19 @@ print(os.getcwd())
 def model(path):
     return tf.keras.models.load_model(path)
 
-def preprocess_image(file):
+def old_preprocess_image(file):
     img = Image.open(io.BytesIO(file)).convert("RGB")
     img = img.resize((256, 256))  # hoặc đúng theo kích thước model
     img = np.array(img) / 255.0
     img = np.expand_dims(img, axis=0)
+    return img
+
+def preprocess_image(image):
+    img = tf.image.decode_image(image, channels=3)
+    img = tf.image.resize(img, [256, 256])
+    img = tf.cast(img, tf.float32)
+
+    img = EfficientNetV2B2_preprocess_input(img)
+
+    img = tf.expand_dims(img, axis=0)
     return img
